@@ -1,0 +1,212 @@
+@media screen and (min-width:670px){
+    /*Menu*/
+    #logo{
+        padding: 0.5%;
+    }
+    /*ZIPZOPkk*/
+    .whatsappChat{
+        position: fixed;
+        bottom: 0;
+        padding: 3vw;
+    }
+    .whatsappChat > img{
+        width: 9vw;
+        border-radius: 50%;
+    }
+    /*Slider*/
+    .carroselContanier{
+        margin: auto;
+        margin-top: 13vh;
+        width: 70vw;
+        
+    }
+    .carrouselNavegation{
+        width: 70vw;
+    }
+    .imgsCarrosel{
+        width: 70vw;
+    }
+    .carrouselNavegation > span{
+        width: 2vw;
+        height: 2vw;
+        margin-left: 1.4vw;
+        margin-right: 1.4vw;
+    }
+
+
+    /*Corpo*/
+    .produtosGrid{
+        width: 60vw;
+        margin: auto;
+    }
+    .produto{
+        width: 30vw;
+        height: 30vw;
+    }
+        .produtosImg{
+            width: 30vw;
+            height: 30vw;
+        }
+        .produtoLink{
+            width: 30vw;
+            height: 30vw;
+            font-size: 3vw;
+        }
+    /*Produtos gerados dinamicamente*/
+    .listaProdutos{
+        width: 80vw;
+        margin: auto;
+    }
+    .individual{
+        width: 20vw;
+    }
+    .individual > p{
+        padding: 1%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .individual > input{
+        font-size: 1vw;
+    }
+    .proIndividual{/*img*/
+        width: 15vw;
+    }
+    /*grid de cada produto*/
+    #colarP{
+        grid-template-columns: auto auto auto;
+        gap: 2vw;
+    }
+    #pulseiraP{
+        grid-template-columns: auto auto auto;
+        gap: 2vw;
+    }
+    #kitsP{
+        grid-template-columns: auto auto auto;
+        gap: 2vw;
+    }
+    /*imagem da marca final*/
+    .sobreNos{
+        text-align: center;
+    }
+    .sobreNosImg{
+        width: 70vw;
+    }
+    /*redes sociais*/
+    .socialImg{
+        width: 20vw;
+        gap: 3vw;
+    }
+    .socialImg > a > img{
+        width: 5.5vw;
+    }
+
+}
+
+
+/*PC*/
+@media screen and (min-width:1000px){
+    /*Menu*/
+    #logo{
+        padding: 0;
+    }
+    /*ZIPZOPkk*/
+    .whatsappChat{
+        position: fixed;
+        bottom: 0;
+        padding: 2vw;
+    }
+    .whatsappChat > img{
+        width: 4vw;
+        border-radius: 50%;
+
+        transition: 0.3s ease-in-out;
+    }
+    .whatsappChat > img:hover{
+        transform: scale(1.25);
+    }
+    /*Slider*/
+    .carroselContanier{
+        margin: auto;
+        margin-top: 13vh;
+        width: 50vw;
+        border-radius: 0.5em;
+    }
+    .carrouselNavegation{
+        width: 50vw;
+    }
+    .imgsCarrosel{
+        width: 50vw;
+    }
+    .carrouselNavegation > span{
+        width: 1.1vw;
+        height: 1.1vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+
+    /*Corpo*/
+    .produtosGrid{
+        width: 40vw;
+        margin: auto;
+    }
+    .produto{
+        width: 20vw;
+        height: 20vw;
+    }
+        .produtosImg{
+            width: 20vw;
+            height: 20vw;
+        }
+        .produtoLink{
+            width: 20vw;
+            height: 20vw;
+            font-size: 1.8vw;
+        }
+        .produtoLink:hover{
+            cursor: pointer;
+        }
+        /*Produtos gerados dinamicamente*/
+            /*grid de cada produto*/
+            #colarP{
+                grid-template-columns: auto auto auto auto;
+                gap: 2vw;
+            }
+            #pulseiraP{
+                grid-template-columns: auto auto auto auto;
+                gap: 2vw;
+            }
+            #kitsP{
+                grid-template-columns: auto auto auto auto;
+                gap: 2vw;
+            }
+        .listaProdutos{
+            width: 80vw;
+            margin: auto;
+        }
+        .individual{
+            width: 20vw;
+        }
+        .individual > input{
+            font-size: 1vw;
+        }
+        .proIndividual{/*img*/
+            width: 15vw;
+        }
+    /*imagem da marca final*/
+    .sobreNos{
+        text-align: center;
+    }
+    .sobreNosImg{
+        width: 50vw;
+    }
+    /*redes sociais*/
+    .socialImg{
+        width: 20vw;
+        gap: 1vw;
+    }
+    .socialImg > a > img{
+        width: 3.5vw;
+    }
+
+}

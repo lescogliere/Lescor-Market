@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESCOGLIERE</title>
+    <link rel="shortcut icon" href="./Assets/logos/logoAzul.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./produtosAling.css">
+    <link rel="stylesheet" href="carrinho.css">
+
+    <!--Media querry-->
+    <link rel="stylesheet" href="mediaQuerry.css">
+</head>
+
+<body>
+    <!--MENU-->
+    <header class="header">
+        <section class="gridTop">
+            <section class="hamburguer">
+                <div class="hamburgerLine"></div>
+                <div class="hamburgerLine"></div>
+                <div class="hamburgerLine"></div>
+            </section>
+                
+            <img src="./Assets/logos/logoAzul.png" alt="LOGO" class="logoAzulBola" id="logo">
+            <div class="carrinhoImgN">
+                <img src="./Assets/Social/Carrinho.png" alt="CARRINHO" class="logoAzulBola" id="carrinho">
+                <p id="ndeProds"></p>
+            </div>
+
+        </section>
+        <nav class="nav">
+            <a href="./index.html">HOME</a>
+            <a href="#produtosContainner" id="produtosLink">PRODUTOS</a>
+            <a href="#redes">A MARCA</a>
+        </nav>
+
+        <!--carrinho-->
+        <section class="carrinhoLista">
+            <div class="carrinhoProdutos">
+
+            </div>
+            <input type="button" value="Finalizar Compra">
+        </section>
+
+        <!--ZIPZOP-->
+        <a href="#" class="whatsappChat" target="page_blank"><img src="./Assets/Social/whatsappVerde.png"
+                alt="WhatsappChat"></a>
+    </header>
+
+    <!--Corpo-->
+    <main class="main">
+        <section class="carroselContanier">
+            <img src="./Assets/banners/Le_20Scogliere_20-_20Abril21_20-_20Loreto_20-6819.jpg" alt="IMG1" class="imgsCarrosel">
+            <img src="./Assets/banners/Le_20Scogliere_20-_20Abril21_20-_20Loreto_20-6861.jpg" alt="IMG2" class="imgsCarrosel">
+            <img src="./Assets/banners/Le_20Scogliere_20-_20Abril21_20-_20Loreto_20-6871.jpg" alt="IMG3" class="imgsCarrosel">
+            <!--CarrouselNavegationByJS-->
+        </section>
+
+        <section class="produtosContainner" id="produtosContainner">
+            <h2>Produtos</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima facere dolor perspiciatis autem commodi
+                aliquam officiis blanditiis consectetur veritatis nisi, voluptatem ullam labore quia officia eaque
+                maiores incidunt expedita tempora!</p>
+            <div class="produtosGrid" id="produtosGrid">
+                <div class="produto" id="anel">
+                    <img src="./Assets/aneis/IMG_1526.JPG" alt="Pulseiras" class="produtosImg">
+                    <a class="produtoLink">ANÉIS</a>
+                </div>
+                <div class="produto" id="colar">
+                    <img src="./Assets/colares/capa.jpg" alt="Pulseiras" class="produtosImg">
+                    <a class="produtoLink">COLARES</a>
+                </div>
+                <div class="produto" id="pulseira">
+                    <img src="./Assets/pulseiras/capa.jpg" alt="Pulseiras" class="produtosImg">
+                    <a class="produtoLink">PULSEIRAS</a>
+                </div>
+                <div class="produto" id="kits">
+                    <img src="./Assets/kits/capa.jpg" alt="Pulseiras" class="produtosImg">
+                    <a class="produtoLink">KITS</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="listaProdutos">
+            <!--Anel-->
+            <div id="anelP">
+                <div class="individual  entra1">
+                    <p>Anel</p>
+                    <img src="./Assets/aneis/IMG_2912.JPG" alt="Anel1" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual  entra2">
+                    <p>Anel</p>
+                    <img src="./Assets/aneis/IMG_4329.JPG" alt="Anel2" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+            </div>
+
+            <!--Colares-->
+            <div id="colarP">
+                <div class="individual entra1">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_2883.JPG" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_2885.JPG" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_4116.JPG" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_4127.jpg" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_4354.JPG" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_5507 (1).jpg" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Colar</p>
+                    <img src="./Assets/colares/IMG_5508.jpg" alt="Colar" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+            </div>
+
+            <!--Pulseiras-->
+            <div id="pulseiraP">
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_0081.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_0227.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_1258.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_1663.JPG" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_3227.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_3985.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_4128.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_4182.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_4912.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_4916.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_5008.JPG" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_5182.JPG" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_5183.JPG" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6210.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6219.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6222.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6257.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6270.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_62731.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6326.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6335.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual  entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6651.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_66971.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6698.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra1">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6737.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6738.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6741.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Pulseira</p>
+                    <img src="./Assets/pulseiras/IMG_6742.jpg" alt="Pulseira" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+            </div>
+
+            <!--Kits-->
+            <div id="kitsP">
+                <div class="individual entra1">
+                    <p>Cabriolet</p>
+                    <img src="./Assets/kits/IMG_2735.JPG" alt="Cabriolet" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra2">
+                    <p>Monza</p>
+                    <img src="./Assets/kits/IMG_2739.JPG" alt="Monza" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra3">
+                    <p>RomeoII</p>
+                    <img src="./Assets/kits/IMG_2740.JPG" alt="RomeoII" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+                <div class="individual entra4">
+                    <p>Portofino</p>
+                    <img src="./Assets/kits/IMG_2741.JPG" alt="Portofino" class="proIndividual">
+                    <input type="button" value="COMPRAR" class="comprar">
+                    <input type="button" value="ADD AO CARRINHO" class="addCarrinho">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sobreNos">
+            <h2>A Marca</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis sed assumenda soluta nihil
+                blanditiis delectus sit dolor odio corporis, laudantium placeat tempore deleniti, consequatur laboriosam
+                explicabo facere. Nam, debitis.</p>
+            <img src="./Assets/banners/Le Scogliere - Abril21 - Loreto -6861.jpeg" alt="banner" class="sobreNosImg">
+        </section>
+
+        <section class="redes" id="redes">
+            <div class="socialImg">
+                <a href="#"><img src="./Assets/Social/facebook.png" alt=""></a>
+                <a href="#"><img src="./Assets/Social/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./Assets/Social/whatsapp.png" alt="whatsapp"></a>
+            </div>
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer class="footer">
+        <a href="http://github.com/GuilhermeVozniak" target="_blank">&copy;VOZNIAK</a>
+    </footer>
+
+
+    <!--JS-->
+    <script src="./script.js"></script>
+    <script src="./produtosAlign.js"></script>
+</body>
+
+</html>
